@@ -22,9 +22,9 @@ export default function HomePage() {
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-black/30" />
+          {/* <div className="absolute inset-0 bg-black/30" /> */}
         </div>
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
+        {/* <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             {t.hero.title}
             <br />
@@ -43,7 +43,7 @@ export default function HomePage() {
               {t.hero.ourStory}
             </Button>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* About the Source */}
@@ -100,7 +100,7 @@ export default function HomePage() {
                     alt={`${size} Leaf Water Bottle`}
                     width={150}
                     height={200}
-                    className="mx-auto mb-4"
+                    className="mx-auto mb-4 object-center"
                   />
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{size}</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-2">{details.use}</p>
