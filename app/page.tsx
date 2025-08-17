@@ -13,7 +13,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center  overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="/leaf 1.jpg"
@@ -24,15 +24,15 @@ export default function HomePage() {
           />
           {/* <div className="absolute inset-0 bg-black/30" /> */}
         </div>
-        {/* <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            {t.hero.title}
+        <div className="relative  flex md:hidden  pt-2 z-10 text-start ml-2 text-white">
+          <h1 className="text-6xl  mt-12 font-bold mb-6 leading-tight">
+            የተፈጥሮ
             <br />
-            <span className="text-cyan-400">{t.hero.subtitle}</span>
+            <span className="text-cyan-400">ጣእም</span>
           </h1>
-          <p className="text-xl md:text-2xl mb-8 text-gray-200">{t.hero.description}</p>
+          {/* <p className="text-xl md:text-2xl mb-8 text-gray-200">{t.hero.description}</p> */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-4 text-lg">
+            {/* <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-4 text-lg">
               {t.hero.exploreWater}
             </Button>
             <Button
@@ -41,9 +41,9 @@ export default function HomePage() {
               className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg bg-transparent"
             >
               {t.hero.ourStory}
-            </Button>
+            </Button> */}
           </div>
-        </div> */}
+        </div>
       </section>
 
       {/* About the Source */}
